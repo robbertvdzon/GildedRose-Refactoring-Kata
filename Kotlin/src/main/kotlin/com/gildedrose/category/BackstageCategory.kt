@@ -1,9 +1,9 @@
-package com.gildedrose.itemalgorithms
+package com.gildedrose.category
 
 import com.gildedrose.Item
 import com.gildedrose.incrementQuality
 
-class BackstageItemAlgorithm : ItemAlgorithm {
+class BackstageCategory : ItemCategory {
 
     override fun accept(item: Item) = item.name == "Backstage passes to a TAFKAL80ETC concert"
 

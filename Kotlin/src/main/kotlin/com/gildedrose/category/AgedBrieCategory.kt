@@ -1,9 +1,9 @@
-package com.gildedrose.itemalgorithms
+package com.gildedrose.category
 
 import com.gildedrose.Item
 import com.gildedrose.incrementQuality
 
-class AgedBrieItemAlgorithm : ItemAlgorithm {
+class AgedBrieCategory : ItemCategory {
 
     override fun accept(item: Item) = item.name == "Aged Brie"
 

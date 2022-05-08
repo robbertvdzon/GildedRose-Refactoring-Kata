@@ -1,8 +1,8 @@
-package com.gildedrose.itemalgorithms
+package com.gildedrose.category
 
 import com.gildedrose.Item
 
-class SulfurasItemAlgorithm : ItemAlgorithm {
+class SulfurasCategory : ItemCategory {
 
     override fun accept(item: Item) = item.name == "Sulfuras, Hand of Ragnaros"
 

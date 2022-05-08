@@ -1,8 +1,8 @@
 package com.gildedrose
 
-import com.gildedrose.itemalgorithms.ItemAlgorithms
+import com.gildedrose.category.ItemCategories
 
-private val itemAlgorithms = ItemAlgorithms()
+private val itemCategories = ItemCategories()
 
 fun Item.decreaseQuality(decrement: Int, max: Int = Int.MAX_VALUE, min: Int = Int.MIN_VALUE) {
     incrementQuality(decrement*-1, max, min)
@@ -18,6 +18,6 @@ fun Item.incrementQuality(increment: Int, max: Int = Int.MAX_VALUE, min: Int = I
 }
 
 fun Item.updateQuality() {
-    val itemAlgorithm = itemAlgorithms.findItemAlgorithm(this)
-    itemAlgorithm.updateQuality(this)
+    val itemCategory = itemCategories.findItemAlgorithm(this)
+    itemCategory.updateQuality(this)
 }

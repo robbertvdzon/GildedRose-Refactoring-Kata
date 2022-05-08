@@ -1,9 +1,9 @@
-package com.gildedrose.itemalgorithms
+package com.gildedrose.category
 
 import com.gildedrose.Item
 import com.gildedrose.decreaseQuality
 
-class DefaultItemAlgorithm : ItemAlgorithm {
+class DefaultCategory : ItemCategory {
     override fun accept(item: Item) = true
 
     override fun updateQuality(item: Item) {

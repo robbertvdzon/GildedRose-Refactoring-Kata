@@ -1,8 +1,8 @@
-package com.gildedrose.itemalgorithms
+package com.gildedrose.category
 
 import com.gildedrose.Item
 
-interface ItemAlgorithm {
+interface ItemCategory {
     fun accept(item: Item): Boolean
     fun updateQuality(item: Item)
 }
