@@ -7,7 +7,8 @@ class ItemCategories {
     private val specializedItemCategories: List<ItemCategory> = listOf(
         AgedBrieCategory(),
         SulfurasCategory(),
-        BackstageCategory()
+        BackstageCategory(),
+        ConjuredCategory()
     )
     private val defaultItemAlgorithm = DefaultCategory()
 
